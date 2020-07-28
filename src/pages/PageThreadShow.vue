@@ -26,9 +26,8 @@
 </template>
 
 <script>
-  import sourceData from '@/data'
+  import sourceData from '@/data.json'
   export default {
-    name: 'ThreadShow',
     props: {
       id: {
         required: true,
@@ -36,7 +35,6 @@
       }
     },
     data () {
-      console.log(sourceData)
       return {
         thread: sourceData.threads[this.$route.params.id],
         posts: sourceData.posts,

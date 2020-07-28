@@ -6,13 +6,10 @@
 </template>
 
 <script>
-  import sourceData from '@/data'
+  import sourceData from '@/data.json'
   import ThreadList from '@/components/ThreadList'
 
-  console.log(sourceData)
-
   export default {
-    name: 'HelloWorld',
     components: {ThreadList},
     data () {
       return {
