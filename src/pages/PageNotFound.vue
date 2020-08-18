@@ -1,5 +1,6 @@
 <template>
   <div class="col-full" :class="$style.centered">
+    <!--  make sure the class is unique  -->
     <h1 :class="$style.headingLarge">Page Not Found</h1>
     <p :class="$style.textLarge">
       Oops, this is not the page you are looking for. <br/>
